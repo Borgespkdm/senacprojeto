@@ -1,0 +1,207 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+  
+    body {
+    
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+    }
+    
+    /* Estilos para o cabeçalho */
+    header {
+    background-color: #000000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    }
+
+    header article{
+        margin-right: 40%;
+        text-align: center;
+    }
+    header article h1 {
+        font-family:  "Honk", system-ui; 
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 800%;
+      
+    }
+    header img{
+        height: 200px;
+        justify-content: flex-start;
+    }
+    
+    header h1 {
+    font-size: 3rem; 
+    font-weight: bold; 
+    }
+    
+    /* Estilos para a navegação */
+    nav ul {
+    list-style-type: none;
+    font-style: normal;
+    font-size: 200%;
+    margin-left: 30%;
+    
+    }
+    
+    nav ul li {
+    display: inline;
+    margin-right: 1rem;
+    }
+    
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    /* Estilos para as seções */
+    main {
+    padding: 2rem;
+
+
+    }
+    
+    .logo-inicial img{
+        height: 400px;
+        margin-left: 45%;
+    }
+    main p{
+        
+        text-align: center;
+        font-size: 180%;
+
+    }
+    .servicoss h2{
+        font-family:  "Honk", system-ui; 
+        font-size: 800%;
+        margin: auto;
+    }
+    section {
+    margin-bottom: 2rem;
+    }
+    .fundo img{
+        height: 800px;
+        margin-left: 20%;
+    }
+    
+    
+    .produtosG{
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 10%;
+
+    }
+    .produto {
+       
+        width: 30%;
+        margin: 1%;
+        text-align: center;   
+    }
+   
+    .produto img{
+        width: 300px;
+        height: 300px;
+    }
+  
+   
+    h1{
+        font-family: "Lexend Zetta", sans-serif;
+        font-size: 110%;
+        width: 70%;
+        margin: auto;
+        
+    }
+    h2{
+        font-family: "Lexend Zetta", sans-serif;
+        font-size: 110%;
+        width: 90%;
+        margin: auto;
+        
+    }
+    .produto1{
+        padding: 200px;
+    }
+    .produto1 {
+       
+        width: 30%;
+        margin: 1%;
+        text-align: center;   
+    }
+   
+    .produto1 img{
+        width: 300px;
+        height: 300px;
+    }
+    .contato h2{
+        font-family:  "Honk", system-ui; 
+        font-size: 800%;
+        margin: auto;
+    }
+    .contato form {
+    max-width: 800px;
+    margin: 10px auto;
+    }
+    
+    .contato label {
+    font-family: "VT323", monospace;
+    font-size: 40px;
+    display: block;
+    margin-bottom: 20px;
+    }
+    
+    input,
+    textarea {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 1rem;
+    border: 1px color#ccc;
+    border-radius: 4px;
+  
+    }
+    
+    button {
+    font-family: "VT323", monospace;
+    font-size: 25px;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+
+    }
+    
+    button:hover {
+    background-color: #F1439C;
+    }
+    .maps{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    
+
+    
+ 
+    footer {
+    background-color: #F1439C;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 20px;
+    }
+
+   .media img{
+       margin: 10px;
+    }
